@@ -1,0 +1,10 @@
+.container::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    bottom: -8px;
+    left: -8px;
+    z-index: -1;
+    background-color: red;
+}

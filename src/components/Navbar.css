@@ -1,0 +1,19 @@
+h2:before{
+  background: linear-gradient(to left, #0abfbc , #fcfcfc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  content: attr(data-text);
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}
